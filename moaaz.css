@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header{
+    background:linear-gradient(#4C5E69,#2D4047);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+
+
+
+}
+ul{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+}
+ul li a{
+        text-decoration: none;
+        color:white;
+        font-size: 18px;
+}
+ul li a:hover{
+    color: antiquewhite;
+    transition: all 0.3s ;
+    font-size: 24px;
+}
+
+.home-body{
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display:flex;
+    background: linear-gradient(#3b4042, #243338); 
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+.my-img img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    object-fit: cover;
+}
+.home-text{
+    margin-left: 20px;
+
+}
+
+
+
+.home-btn button{
+    width: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    background-color: #53605f;
+    border:none;
+    color: white;
+    cursor:pointer;
+    margin-top: 20px;
+}
+.home-btn button:hover{
+    background-color: #3b4042;
+    transition: 0.3s all;
+}
+.about h1{
+    font-family:'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    background-color: #37393e;
+    margin-left: 0;
+    padding-left: 60px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about-body{
+    align-items: center;
+    background-color: #313a40; /* ده اللون اللي هيخلي الخلفية تندمج مع الصورة بالظبط */
+    padding-bottom: 30px;
+
+}
+.about-body{
+    
+    line-height: 1.8; 
+    letter-spacing: 0.5px;
+
+}
+.about-img img{
+    width: 60px;
+    margin-left: 50px;
+    padding-top: 20px;
+    
+}
+.about-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+    
+}
+.about-img div{
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.about-img div:hover{
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+.about-img img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    
+
+}
+
+.about-body{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: #37393e;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.about-me{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.about-img-1 img{
+    width: 300px;
+    border-radius: 20px;
+
+
+}
+.skill-card img{
+    width: 50px;
+    padding: 20px;
+}
+.skills{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #252a2e;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.skills-container{
+       display: flex;
+        justify-content: center;
+        
+
+}
+.skill-card{
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 200px;
+    text-align: center; 
+        margin:20px ;
+        background-color: #3d4449;
+        color: white;
+        border-radius: 20px;
+   
+}
+.skill-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+
+
+ .portfolio{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+   
+ }
+
+ .portfolio h1{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #1a1d21;
+
+ }
+
+
+ .portfolio img{
+    width: 300px;
+    margin-bottom: 10px;
+ }
+ .portfolio-body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    background: linear-gradient(180deg, #1a1d21 0%, #0f1113 100%);
+
+    
+ }
+ .login-div{
+    width: 18%;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+        border: #53605f solid;
+    height:285px;
+ }
+
+  .shoes-div{
+    width: 20%;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+            border: #53605f solid;
+
+ }
+
+   .portfolio-img-div{
+    width: 20%;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+    border: #53605f solid;
+
+ }
+ .login-div:hover,.shoes-div:hover,.portfolio-img-div:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+ }
+
+
+
+
+
+ .contact{
+            background-color: #282727;
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+
+}
+.contact-a{
+ padding: 10px;
+}
+
+.hr{
+background: linear-gradient(to right, #3b4042, #243338);
+
+    height: 10px;
+    border-radius: 100px;
+    margin: 10px;
+    width: 470px;
+    margin-left: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    footer{
+        background-color: #1b1b1b;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.footer-body{
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media(max-width:730px){
+       .hr{
+    margin-left: 0;
+   }
+
+      .contact h1{
+    margin-left: -5px;
+    padding: 10px;
+   }
+
+
+      .div-img-1 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+   }
+   .texts-div{
+    margin-left: 0;
+    width: 400px;
+    margin-top: 0;
+    padding: 20px;
+   }
+      .portfolio h1{
+    margin-left: 20px;
+   }
+   .portfolio-body{
+    text-align: center;
+    display: grid;
+
+   }
+
+   .login-div,.shoes-div,.portfolio-img-div{
+    width: 30ch;
+    align-items: center;
+   }
+
+   .login-div img,.shoes-div img,.portfolio-img-div img{
+    margin-left: -10px;
+   }
+   
+}
+
+
+
+
